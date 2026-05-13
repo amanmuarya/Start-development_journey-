@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms in HTML</title>
 </head>
+
 <body>
-    
+    <h2>Forms in HTML</h2>
+    <form action=" ">
+        <!-- <form action="Images-in.html"> -->
+        <leable>enter your first name : </leable>
+        <input type="text" minlength="4" maxlength="12" required 
+        placeholder="plasse enter your first naem  " value=""name ="fname"
+        />
+        <leable for="Mname">enter midal nama</leable>
+        <input id="Mname" type="text" value="AK">
+        <leable for=""> enter you last name:</leable>
+        <input type="text" disabled />
+        <br><br />
+
+        <leable> enter you age :</leable>
+        <input type="number">
+        <br><br />
+        <leable fro="">email</leable>
+        <input type="email">
+        <br><br />
+        <leable for="">join date</leable>
+        <input type="date" />
+        <br><br />
+        <label for="">Password</label>
+        <input type="password">
+        <p>enter your T-shirt size :</p>
+        <input type="radio" name="T-shirt" id="small" />
+        <leable for="small">small size </leable>
+
+
+        <input type="radio" name="T-shirt" id="medimum" checked name="" value="" />
+        <leable for="medimum">medimum size</leable>
+
+        <input type="radio" name="T-shirt" id="large " />
+        <leable for="large">large size</leable>
+
+        <br><br />
+        <p>select our language </p>
+        <input type="checkbox" name="long" id="english" />
+        <label for="english">english</label>
+        <input type="checkbox" name="long" id="hindi" checked />
+        <label for="hindi">hindi</label>
+        <input type="checkbox" name="long" id="bojpuri" />
+        <label for="bojpuri">bojpuri</label>
+        <br><br />
+
+
+        <label for="clr">Plasse select colore for T-shirt </label>
+        <input type="color">
+        <br>
+        <br />
+        <!-- <p>Value this t-shirt</p>
+        <input type="price">
+        <lable></lable>
+        <br> -->
+        <label for="pemantOption">Pay your pemant </label>
+        <section name="pemant" id="pemantOption">
+            <option value=""></option>
+            <option value="Gpay">gpay</option>
+            <option value="phonePay">phonePay</option>
+            <option value="UPI">UPI</option>
+            <input type="">
+        </section>
+        <br><br />
+        <label for="comment"> Given your feedback </label>
+        <textarea name="comment" id="comment" rows="1" cols="113" placeholder="pls's comment here "></textarea>
+        <br><br />
+        <input type="reset" />
+        <input type="submit" />
+
+    </form>
 </body>
+
 </html>
