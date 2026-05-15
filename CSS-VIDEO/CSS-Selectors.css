@@ -1,0 +1,69 @@
+/* this one here discouse css selectior 
+value ,, key selector type  */
+
+/* 1. element selecror */
+
+ /* p{
+    color:green;
+    background-color: rgb(102, 239, 239);
+ }
+ h2{
+    color:blanchedalmond;
+    background-color: black;
+ } */
+
+ /* 2. Id seclector */
+
+ /* #pid{
+    color:rgb(8, 236, 236);
+background-color:green;
+ }
+ #p1id{
+    color:blue;
+    background-color:rgb(167, 167, 13);
+ }
+    ****  Add many secloter single 
+    #pid, p1id, p {
+    color:green;
+} 
+   
+
+/* 3. class selector */
+
+/* .p1class{
+    color:orangered;
+    background-color:aquamarine;
+}
+.p2class{
+    color:green;
+    background-color:aquamarine;
+}
+.p2{
+    color:rgb(2, 14, 226);
+} */
+
+/* 4. universal secloter  */
+
+/* *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(135, 218, 10);
+} */
+ 
+/* 5. descendent selector 
+this seloter under only child to change without other not change okk 
+*/
+ /* #hii p{
+    color:rgb(210, 6, 40)
+}  */
+
+/* 6. direct secloter */
+
+/* #hii >p{
+    color:yellow;
+} */
+
+/* 7. :hover  */
+
+p :hover{
+    color:blue;
+}
