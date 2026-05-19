@@ -1,0 +1,37 @@
+.container {
+    width: 645px;
+    height: 654px;
+    background-color: rgb(235, 13, 13);
+}
+
+.box {
+    background-color: rgb(233, 79, 79);
+    width: 80px;
+    height: 70px;
+}
+
+.static {
+    /* position: static; */
+    background-color: rgb(5, 238, 235);
+    /* height: 34px;
+    width: 45px; */
+}
+
+.relative {
+    position: relative;
+    top: 45px;
+    left: 555px;
+    background-color: rgb(236, 144, 5);
+}
+
+.absolute {
+    position: absolute;
+    background-color: blue;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    position: fixed;
+    background-color: aquamarine;
+}

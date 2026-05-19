@@ -1,0 +1,27 @@
+main ,p {
+    background-color:rgb(233, 91, 205);
+border:3px dashed black;
+/* width: 50%; */
+}
+h3{
+    border:2px dotted black;
+    background-color:rgb(73, 203, 73)
+   
+}
+h2{
+    border:2px solid rgb(54, 54, 234)
+}
+section{ 
+    /* font-size: 12px; */
+    /* font-size:2em; */
+    border: 4px solid rgb(6, 193, 230);
+    width: 50vw;
+}
+/* 
+vw = viewport width 
+
+vh = viewport height 
+
+px = pixels
+ 
+em = relative to the font-size of the element  */

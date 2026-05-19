@@ -1,0 +1,33 @@
+*{
+    /* border: 1px solid rgb(226, 8, 8); */
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+p{ 
+    width: 45%;
+}
+a{
+    display: block; 
+    /* height: 23px;  */
+    width:45px;
+
+}
+ul{
+    list-style: none; 
+    text-align: right; 
+    padding: 21px; 
+    background-color: aqua; 
+}
+ul > li > a{
+    color: green; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+li{ 
+    display: inline; 
+}
+li>a:hover {
+    color:red;
+
+}
