@@ -1,0 +1,45 @@
+.body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contanet {
+min-height:90vh;
+    padding: 55px;
+}
+:root{
+    /* this is golobel variables ,, all  */
+    --primary-text-color : red;
+    --secondary-color: #d2acac;
+    --card-background-color: rgb(85, 240, 93);
+}
+
+h1 {
+    color: var(--primary-text-color);
+    text-align: center;
+    background-color: var(--card-background-color);
+}
+
+h2 {
+    color: var(--primary-text-color);
+    background-color: var(--backg-color, rgb(119, 70, 242));
+}
+
+.right {
+    padding: 19px;
+    border-radius: 10%;
+    margin-block: 19px;
+    /* this use two contaner gap   */
+background-color: var(--card-background-color);
+    /* --backg-color: green */
+
+        /* here is create  variables  */
+
+}
+
+h4 {
+    padding: 25px;
+    background-color: var(--backg-color, aqua);
+    color: var(--primary-text-color);
+}

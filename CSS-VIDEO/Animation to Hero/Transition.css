@@ -1,0 +1,39 @@
+.box {
+    margin: 60px auto;
+    background-color: aquamarine;
+    width: 404px;
+    height: 404px;
+
+/* transition:1s; */
+
+    transition-duration: 2s;
+    transition-delay: 0.5s; 
+    transition-property: transform, border-radius, background-color;
+    transition-timing-function:ease-out;
+}
+
+.box:hover {
+    background-color: rgb(149, 87, 11);
+    border-radius: 50%;
+    transform: rotate(187deg);
+}
+.list{
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.item{
+    font-size: 1.2em;
+}
+nav{
+    /* background-color: aqua; */
+        transition: 0.5s ease-in;
+    color:rgb(176, 122, 122);
+}
+.item:hover{ 
+    color:rgb(232, 124, 124);
+    cursor: pointer;
+    background-color:rgb(255, 255, 255)  ;
+    transform: translatey(7px);
+
+}

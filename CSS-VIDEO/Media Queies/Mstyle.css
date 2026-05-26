@@ -1,0 +1,18 @@
+body{
+    background-color:rgba(33, 206, 90, 0.755);
+}
+
+@media (max-width: 500px) and (max-width: 600px){
+    body {
+        background-color: aqua;
+    }
+}
+/* @media (width <=300px){
+    body{
+background-color: greenyellow;
+    }
+
+} */
+@media(min-width: 200px ){
+    body{background-color: rgb(230, 230, 80);}
+}

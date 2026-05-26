@@ -1,0 +1,28 @@
+.outer-contaner{
+    background-color: rgb(28, 196, 140);
+    margin: 45px auto  ;
+width: 440px ; 
+height:440px; 
+}
+.iner-contaner{
+    background-color: rgb(231, 231, 105);
+    color:black;
+    align-items: center;
+    display: flex;
+    width: 200px;
+    height:200px;
+    justify-content: center;
+/* transform:scalex(2.5);
+    transform: scaley(1.5) ,scalex(1.5); */
+    /* transform: scale(1.5, 1.2); */
+
+    /* skew property */
+    /* transform: skew(22deg , 23deg); */
+
+    /* transform:translate(34px , 45px ); */
+    /* transform: translate(50% , 50%); */
+
+    /* transform:rotate(40deg); */
+    
+    transform:skew(33deg) rotate(34deg) translate(45px, 54px  );
+}

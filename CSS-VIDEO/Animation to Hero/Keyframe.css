@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+body{
+    background-color: rgb(39, 242, 70);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+height: 100vh;
+}
+.contaner{
+    width: 282px;
+    height: 282px;
+    border: 3px solid rgb(255, 255, 255);
+}
+.tiem{
+    height: 84px;
+    width: 84px ;
+    background-color: rgb(39, 240, 240);
+    /* transition: 1s  ; */
+    animation-name: sheftThetime ;
+    animation-duration:4s ;
+    animation-iteration-count:infinite;
+    animation-direction: reverse;
+ animation-timing-function: linear; 
+    animation-fill-mode:none ;
+
+}
+@keyframes orbit{
+    form{
+transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.tiem:hover{
+    transform: translate(200px);
+
+}
+@keyframes sheftThetime{
+    0%, 100%{ 
+        transform: translate(0,0);
+        border-radius:50%;
+
+    }
+    25%{transform: translate(200px ,0);
+ background-color: yellow;
+    }
+    50%{
+        transform: translate(200px ,200px );
+
+    }
+    75%{
+        transform: translate( 00px , 200px );
+
+    }
+    100%{
+        transform: translate(0,0);
+    }
+} 
