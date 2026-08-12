@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+}
+html{
+    background-color:rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0.688);
+    font-family: Lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:16px;
+    /* text-rendering:optimizeLegibility; */
+}
+/* .row{
+    /* max-width:410px;
+    margin:0 auto;     */
+/* } */ 
+header{
+background-image: linear-gradient(to bottom, rgba(247, 173, 173, 0.379), rgba(113, 113, 37, 0.612)),url("../data/f-3.jpg");
+height:100vh;
+background-size:cover;
+background-position:center;
+}
+h1{
+    margin-top:0px;
+    padding:0px ; 
+    font-size:220%;
+        font-weight: 400;
+    text-transform:uppercase;
+    margin-bottom:20px; 
+    letter-spacing:1px; 
+    word-spacing:2px; 
+    /* line: spacing 2rem; */
+
+
+}
+.hero-text-box{
+    position:absolute;
+    width: 410px ;
+    color:white;
+    right:50%;
+    top: 50%;
+    transform:translate(2%, -40%);
+}
+.btn:link,
+.btn:visited
+{
+    display:inline-block;
+    padding:12px 30px; 
+    text-decoration:none;
+    font-weight:300px; 
+    border-radius:25px;
+    transition: background-color 0.5s, color 0.5s, border 0.4s;
+}
+.btn-full:link, .btn-full:visited
+{
+    background-color:rgba(183, 213, 11, 0.828);
+    color:white;
+    border:  solid rgb(255, 112, 3) 2px; 
+    margin-right:20px; 
+    font-weight:400;
+}
+.btn-ghost:link, .btn-ghost:visited
+{
+    border:solid rgb(216, 126, 22) 2px; 
+    color:rgb(10, 10, 10);
+    font-weight:500px;
+}
+.btn:hover, 
+.btn:active{
+    background-color:rgba(238, 200, 166, 0.817);
+}
+/* navbar */
+
+/* Navbar */
+
+.logo {
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 12px;
+}
+
+.main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: white;
+        margin-left: 120px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid rgb(220, 156, 38);
+} 
+section{
+    padding: 60px;
+
+}
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size:  180%;
+    word-spacing: 2px;
+    margin-top: 30px ;
+    text-align: center;
+letter-spacing: 1px;
+} 
+h2:after{
+   display:block ; 
+  height:2px;
+  background-color: rgb(228, 109, 65);
+content: "";
+margin: 0 auto ;
+margin: top 30px;  
+}
+long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+
+}
+box{
+     padding: 1%;
+
+}
+h3{
+    font-size:110% ;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.box p{
+font-size: 90%;
+line-height:145%;
+
+}
+.icon-big{
+font-size: 350%;
+display: block;
+color:rgb(147, 43, 5);
+margin-bottom: 10px;
+}
+
+ /* Creating Favorite meal section - Part-1 */
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+    gap: 15px;
+}
+
+.meals-showcase::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.meals-showcase li {
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    transition: transform 0.7s, opacity 0.5s; 
+}
+
+.meal-photo img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    opacity:0.9;
+}
+.meal-photo img:hover{
+    transform:scale(1.2) ;
+    opacity:1;
+}
+
+/* Creating how it works section - Part-2 */
+
+
+/* photo ke bad  */
+.step-box:first-child{
+ text-align:center;
+ padding-right:3%;
+ margin-bottom:50px; 
+}
+.clearfix{zoom:1;}
+.clearfix::after
+.section-meals{
+padding:0%;
+content:"";
+display:block;
+height:0;
+visibility:hidden;
+}
+work-step{
+    margin-bottom:50px;
+    margin-right:25px;
+}
+.step-box:last-child{
+padding-left:3%;
+margin-top:70px;
+}
+.app-screen{
+   width:40%; 
+   box-shadow: 10px 10px 20px #aaaa;
+}
+work-step div{
+    color:orange;
+    border:2px solid orange;
+    display:inline-block;
+    border-radius:50%;
+    width:55px;
+    text-align:center;
+    height:55px;
+font-size:120%;
+    padding:5px;
+    margin-right:25px;
+
+
+}
+.btn-app img{
+    height: 50px;
+    width:auto;
+}
+.work-step:last-of-type{
+margin-bottom:80px;
+} 
+ .section-step{
+    background-color:#f4f4f4;
+ }
+
+
+/* Creating the city section - Part-2 */
+
+.box img{
+width: 100%;
+height: auto;
+margin-bottom: 15px ;
+}
+.citi feature{
+    margin-bottom: 5px;
+
+}
+.icon-small{
+    display: inline;
+    width: 30PX;
+    text-align: center;
+    color: rgb(247, 78, 16);
+    font-size: 120%;
+    line-height:120%;
+    vertical-align:middle;
+    margin-top:-5px;
+    margin-right: 10px;
+}
+a:link,
+a:visited{
+    color:orangered;
+    text-decoration: none;
+    border-bottom: 1px solid orangered;
+}
+a:hover,
+a:active{
+    color:aquamarine;
+    border-bottom:1px solid orange;
+    transition:border-bottom 0.5s , color 0.5s  ;
+
+}
