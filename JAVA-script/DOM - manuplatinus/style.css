@@ -1,0 +1,18 @@
+.contaner{
+    background-color: rgb(156, 251, 15);
+    display: flex ;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-between;
+     padding: 12px ;
+     width:494px;
+}
+.box{
+    width: 94px;
+    height: 94px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
