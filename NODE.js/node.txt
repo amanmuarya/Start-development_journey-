@@ -1,0 +1,22 @@
+1. Node.js start hota hai
+        ↓
+2. HTTP module import hota hai
+        ↓
+3. Server create hota hai
+        ↓
+4. Server port 4000 par listen karta hai
+        ↓
+5. Browser open:
+   http://localhost:4000
+        ↓
+6. Browser request bhejta hai
+        ↓
+7. req server ke paas aata hai
+        ↓
+8. Server res.end() se response bhejta hai
+        ↓
+9. Browser mein message show hota hai   
+
+
+req user ki request hai, res server ka response hai, aur
+ listen(4000) server ko port 4000 par run karta hai. 
